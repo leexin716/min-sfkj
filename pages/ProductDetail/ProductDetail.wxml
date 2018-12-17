@@ -1,0 +1,3 @@
+<!--pages/ProductDetail/ProductDetail.wxml-->
+<view class='proImg'><image src='http://pj94pq3zn.bkt.clouddn.com/productDetail.jpg' mode='widthFix'></image></view>
+<button class='toBuy'>去购买</button>

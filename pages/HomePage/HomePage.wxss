@@ -1,0 +1,40 @@
+page{
+  background: #4E89D2;
+}
+.backBtn{
+  padding: 40rpx 0;
+}
+.agentBtn{
+  text-align: center;
+}
+.dtButton{
+  width: 90%;
+  height: 180rpx;
+  background: #2E66AA;
+  border-radius: 90rpx;
+  margin: auto;
+  margin-top: 60rpx;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  justify-content: center
+}
+.dtFontFirst{
+  font-size: 52rpx;
+  color: #fff
+}
+.dtFontSecond{
+  font-size: 28rpx;
+  color: #FFD222
+}
+.isVideo{
+  width: 90%;
+  /* border-radius: 30rpx; */
+  height: 350rpx;
+  margin: auto;
+  /* margin-top: 30rpx; */
+}
+.isVideo video{
+  width: 100%;
+  height: 100%;
+}

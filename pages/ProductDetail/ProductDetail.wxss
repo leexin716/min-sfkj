@@ -1,0 +1,13 @@
+/* pages/ProductDetail/ProductDetail.wxss */
+.proImg{
+  width: 100%;
+  height: 100%;
+  font-size: 0
+}
+.proImg image{
+  width:100%
+}
+.toBuy{
+  background: #4E89D2;
+  color: #fff;
+}

@@ -1,0 +1,18 @@
+<view class='contian'>
+    <swiper  autoplay="true" interval="3000" indicator-dots="true" indicator-active-color="#fff" style='height:550rpx'>
+      <block wx:for="{{imgUrls}}" wx:key="index">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" style='width:100%;height:100%' bindtap='toDetail' />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class='backBtn'>
+      <view class='agentBtn'>
+        <image src='../../images/agentBtn.png' mode='widthFix' bindtap='toAgentActivity'></image>
+        <image src='../../images/userBtn.png' mode='widthFix' bindtap='toOrdinaryActivity'></image>
+      </view>
+    </view>
+    <view class='isVideo'>
+      <video class='isVideo' src='http://pj94pq3zn.bkt.clouddn.com/d2317192a245c440b240159afc1bcbf8.mp4'></video>
+    </view>
+</view>
