@@ -1,6 +1,9 @@
 page{
   background: #4E89D2;
 }
+.contian{
+  padding-bottom: 60rpx;
+}
 .backBtn{
   padding: 40rpx 0;
 }

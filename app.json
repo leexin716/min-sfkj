@@ -1,14 +1,38 @@
 {
-  "pages":[
+  "pages": [
     "pages/HomePage/HomePage",
     "pages/AgentActicityDetail/AgentActicityDetail",
+    "pages/UserActivityDetail/UserActivityDetail",
     "pages/ProductDetail/ProductDetail",
-    "pages/UserActivityDetail/UserActivityDetail"
+    "pages/Information/Information"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "waterever",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "text": "首页",
+        "iconPath": "images/home_unselect.png",
+        "selectedIconPath": "imgs/home_select.png"
+      },
+      {
+        "pagePath": "pages/Information/Information",
+        "text": "车主服务",
+        "iconPath": "images/car.png",
+        "selectedIconPath": "imgs/car_a.png"
+      },
+      {
+        "pagePath": "pages/Information/Information",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_a.png"
+      }
+    ],
+    "selectedColor": "#549c98"
   }
 }

@@ -10,4 +10,10 @@
 .toBuy{
   background: #4E89D2;
   color: #fff;
+  text-align: center;
+  font-size: 32rpx;
+  padding: 30rpx 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
