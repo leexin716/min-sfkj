@@ -1,0 +1,114 @@
+/* pages/BuyProduct/BuyProduct.wxss */
+page{
+  background: #f6f6f6;
+}
+.content{
+  padding: 0 40rpx;
+  font-size: 28rpx;
+  background: #fff;
+}
+.fontOne{
+  color: #4E89D2;
+  padding: 20rpx 0;
+}
+.fontOne text{
+  font-size: 36rpx;
+  font-weight: bold
+}
+.fontTwo{
+  font-size: 36rpx;
+}
+.fontThree{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #959595;
+  padding: 20rpx 0;
+}
+.contenter{
+  padding: 20rpx 40rpx;
+  font-size: 28rpx;
+  background: #fff;
+  margin: 20rpx 0;
+}
+.contenter view:first-child{
+  font-size: 32rpx;
+  color: #4E89D2;
+  font-weight: bold
+}
+.contenter view{
+  padding: 10rpx 0;
+}
+.buybtn{
+  width: 100%;
+  line-height: 100rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 28rpx;
+  background: #4E89D2;
+  position: fixed;
+  bottom: 0;
+}
+.proImg{
+  padding-bottom: 100rpx;
+  font-size: 0;
+}
+.mask{
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .6);
+  z-index: 999;
+  overflow: hidden;
+}
+.maskContent{
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999
+}
+.maskContenter{
+  padding: 0 20rpx;
+  font-size: 32rpx;
+}
+.maskContenter:first-child{
+  padding-top: 20rpx
+}
+.padbtm{
+  padding-bottom: 40rpx;
+}
+.maskTitle{
+  padding-left:25rpx; 
+}
+.maskItemLilst{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20rpx;
+}
+.maskItem{
+  width: 25%;
+}
+.maskItem view{
+  background: #E6E6E6;
+  border-radius: 40rpx;
+  padding: 15rpx 0;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.maskBtn{
+  background: #4E89D2;
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 32rpx;
+}
+.addColor{
+  color: #fff;
+  background: #4E89D2 !important;
+}

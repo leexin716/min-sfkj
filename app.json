@@ -1,38 +1,40 @@
 {
   "pages": [
+    "pages/BuyProduct/BuyProduct",
     "pages/HomePage/HomePage",
     "pages/AgentActicityDetail/AgentActicityDetail",
     "pages/UserActivityDetail/UserActivityDetail",
     "pages/ProductDetail/ProductDetail",
-    "pages/Information/Information"
+    "pages/Information/Information",
+    "pages/ApplyPage/ApplyPage"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#4E89D2",
     "navigationBarTitleText": "waterever",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/HomePage/HomePage",
         "text": "首页",
-        "iconPath": "images/home_unselect.png",
-        "selectedIconPath": "imgs/home_select.png"
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/homes.png"
       },
       {
         "pagePath": "pages/Information/Information",
-        "text": "车主服务",
-        "iconPath": "images/car.png",
-        "selectedIconPath": "imgs/car_a.png"
+        "text": "资讯",
+        "iconPath": "images/info.png",
+        "selectedIconPath": "images/infos.png"
       },
       {
         "pagePath": "pages/Information/Information",
         "text": "我的",
-        "iconPath": "images/my.png",
-        "selectedIconPath": "images/my_a.png"
+        "iconPath": "images/center.png",
+        "selectedIconPath": "images/centers.png"
       }
     ],
-    "selectedColor": "#549c98"
+    "selectedColor": "#4E89D2"
   }
 }

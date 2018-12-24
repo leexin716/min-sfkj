@@ -1,0 +1,22 @@
+/* pages/ApplyPage/ApplyPage.wxss */
+page{
+  background: #ffead1;
+}
+.payer{
+  background: linear-gradient( to bottom,#9238f5,#563ffa);
+  width: 80%;
+  margin: auto;
+  line-height: 80rpx;
+  color: #fff;
+  font-size: 32rpx;
+  text-align: center;
+  border-radius: 40rpx;
+}
+.content{
+  font-size: 28rpx;
+  padding: 40rpx;
+}
+.content view{
+  color: #ab550f;
+  padding: 8rpx 0;
+}

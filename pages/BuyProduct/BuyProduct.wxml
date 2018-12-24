@@ -1,0 +1,52 @@
+<!--pages/BuyProduct/BuyProduct.wxml-->
+<view>
+  <image src='http://pj94pq3zn.bkt.clouddn.com/homeBanner2.png' mode='widthFix' style='width:100%;height:550rpx'></image>
+  <view class='content'>
+    <view class='fontOne'>押金
+      <text>￥998.00</text>+租金￥
+      <text>365.00/年</text>
+    </view>
+    <view class='fontTwo'>waterever净水器</view>
+    <view class='fontThree'>
+      <view>预计7天内上门安装</view>
+      <view>免费安装</view>
+    </view>
+  </view>
+
+  <view class='contenter'>
+    <view>购买须知</view>
+    <view>期限:净水设备租赁期限一天一块钱，可按照年限购买</view>
+    <view>租金:租金365元(200元会员费和165元设备租赁费)及履约保证金998元即可使用设备</view>
+    <view>此商品若发生退货/拆机，押金将给予退还，租金无法退还。</view>
+  </view>
+  <view class='proImg'>
+    <image src='../../images/buyproduct.jpg' mode='widthFix' style='width:100%;'></image>
+  </view>
+  <view class='buybtn' bindtap='showMask'>立即购买</view>
+
+  <!-- 弹层 -->
+  <view class='mask' hidden='{{!isMask}}' catchtouchmove="preventTouchMove" bindtap='closeMask'>
+    <view class='maskContent'>
+      <!-- 年限 -->
+      <view class='maskContenter'>
+        <view class='maskTitle'>选择年限</view>
+        <view class='maskItemLilst'>
+          <view class='maskItem' wx:for='{{yearList}}' wx:key="index">
+            <view class='{{isAddYear == index?"addColor":""}}' bindtap='chooseYear' data-index='{{index}}'>{{item}}</view>
+          </view>
+        </view>
+      </view>
+      <!-- 配件 -->
+      <view class='maskContenter padbtm'>
+        <view class='maskTitle'>是否购买配件</view>
+        <view class='maskItemLilst'>
+          <view class='maskItem' wx:for='{{isbuy}}' wx:key="index">
+            <view class='{{isAddBuy == index?"addColor":""}}' bindtap='chooseBuy' data-index='{{index}}'>{{item}}</view>
+          </view>
+        </view>
+      </view>
+      <!-- 按钮 -->
+      <view class='maskBtn' bindtap='sure'>确认</view>
+    </view>
+  </view>
+</view>

@@ -12,8 +12,8 @@ Page({
     }
   },
   applyFn(){
-    wx.switchTab({
-      url: '../AfterSaleService/AfterSaleService',
+    wx.navigateTo({
+      url: '../ApplyPage/ApplyPage',
     })
   }
 })
