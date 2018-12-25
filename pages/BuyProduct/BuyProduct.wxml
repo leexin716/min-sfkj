@@ -19,9 +19,15 @@
     <view>租金:租金365元(200元会员费和165元设备租赁费)及履约保证金998元即可使用设备</view>
     <view>此商品若发生退货/拆机，押金将给予退还，租金无法退还。</view>
   </view>
-  <view class='proImg'>
-    <image src='../../images/buyproduct.jpg' mode='widthFix' style='width:100%;'></image>
+   <view class='contenter'>
+    <view>产品详情</view>
+    <view class='imgList'>
+      <image src='http://pj94pq3zn.bkt.clouddn.com/productDetail.jpg' mode='widthFix'></image>
+    </view>
   </view>
+  <!-- <view class='proImg'>
+    <image src='../../images/buyproduct.jpg' mode='widthFix' style='width:100%;'></image>
+  </view> -->
   <view class='buybtn' bindtap='showMask'>立即购买</view>
 
   <!-- 弹层 -->

@@ -16,7 +16,7 @@ Page({
   //产品详情
   toDetail(){
     wx.navigateTo({
-      url: '../ProductDetail/ProductDetail',
+      url: '../BuyProduct/BuyProduct',
     })
   },
   //代理商进入详情

@@ -49,9 +49,11 @@ page{
   position: fixed;
   bottom: 0;
 }
-.proImg{
-  padding-bottom: 100rpx;
+.imgList{
   font-size: 0;
+}
+.imgList image{
+  width: 100%
 }
 .mask{
   position: fixed;

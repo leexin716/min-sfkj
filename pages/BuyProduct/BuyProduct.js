@@ -56,7 +56,7 @@ Page({
       return
     }
     wx.navigateTo({
-      url: '../',
+      url: '../CreateOrder/CreateOrder',
     })
   }
 })

@@ -6,7 +6,8 @@
     "pages/UserActivityDetail/UserActivityDetail",
     "pages/ProductDetail/ProductDetail",
     "pages/Information/Information",
-    "pages/ApplyPage/ApplyPage"
+    "pages/ApplyPage/ApplyPage",
+    "pages/CreateOrder/CreateOrder"
   ],
   "window": {
     "backgroundTextStyle": "light",
