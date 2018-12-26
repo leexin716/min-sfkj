@@ -3,9 +3,12 @@ Page({
   data: {
     yearList: ['1年', '2年', '3年', '4年', '5年', '6年','7年'],
     isbuy:['是','否'],
-    isMask:false,
+    isMask:true,
     isAddYear:-1,
-    isAddBuy:-1
+    isAddBuy:-1,
+    count:1,
+    isYears:'',
+    isBuys:Boolean
   },
   onLoad: function (options) {
 
@@ -23,7 +26,8 @@ Page({
   chooseYear(p){
     console.log(p.currentTarget.dataset.index)
     this.setData({
-      isAddYear: p.currentTarget.dataset.index
+      isAddYear: p.currentTarget.dataset.index,
+      isYears: p.currentTarget.dataset.index+1
     })
   },
   //是否配件
@@ -32,6 +36,15 @@ Page({
     this.setData({
       isAddBuy: p.currentTarget.dataset.index
     })
+    if (p.currentTarget.dataset.index == 0){
+      this.setData({
+        isBuys:true
+      })
+    }else{
+      this.setData({
+        isBuys: false
+      })
+    }
   },
   closeMask(p){
     // this.setData({
@@ -56,7 +69,22 @@ Page({
       return
     }
     wx.navigateTo({
-      url: '../CreateOrder/CreateOrder',
+      url: '../CreateOrder/CreateOrder?isYears=' + this.data.isYears + '&isBuys=' + this.data.isBuys + '&count=' + this.data.count,
+    })
+  },
+  // 减少
+  reduce(){
+    if (this.data.count < 2){
+      return
+    }
+    this.setData({
+      count: this.data.count - 1
+    })
+  },
+  // 增加
+  add(){
+    this.setData({
+      count: this.data.count+1
     })
   }
 })

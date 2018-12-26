@@ -44,11 +44,20 @@
       </view>
       <!-- 配件 -->
       <view class='maskContenter padbtm'>
-        <view class='maskTitle'>是否购买配件</view>
+        <view class='maskTitle'>是否购买配件<text>￥100/5年</text></view>
         <view class='maskItemLilst'>
           <view class='maskItem' wx:for='{{isbuy}}' wx:key="index">
             <view class='{{isAddBuy == index?"addColor":""}}' bindtap='chooseBuy' data-index='{{index}}'>{{item}}</view>
           </view>
+        </view>
+      </view>
+      <!-- 数量 -->
+      <view class='maskContenter padbtm counter'>
+        <view class='maskTitle'>购买数量</view>
+        <view class='rightCount'>
+          <view class='backGray' bindtap='reduce'>-</view>
+          <view class='count'>{{count}}</view>
+          <view class='backGray' bindtap='add'>+</view>
         </view>
       </view>
       <!-- 按钮 -->

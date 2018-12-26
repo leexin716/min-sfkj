@@ -1,1 +1,88 @@
-/* pages/CreateOrder/CreateOrder.wxss */
+page{
+  background: #f6f6f6;
+}
+.address{
+  padding: 20rpx;
+  font-size: 28rpx;
+  background: #fff;
+}
+.address_title{
+  font-size: 28rpx;
+  font-weight: bold
+}
+.address{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.address_left{
+  width: 85%;
+}
+.address_right{
+  width: 10%;
+  text-align: right
+}
+.namePhone{
+  padding: 10rpx 0;
+}
+.namePhone text{
+  padding-right: 20rpx;
+}
+.content{
+  background: #fff;
+  padding: 20rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.content_pro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-top:1px solid #eee;
+  border-bottom:1px solid #eee;
+}
+.content_title{
+  font-weight: bold;
+  padding-bottom: 20rpx;
+}
+.content_img{
+  width: 120rpx;
+  height: 120rpx;
+  background: #eee;
+}
+.content_right{
+  width: 80%;
+  height: 120rpx;
+}
+.countYear{
+  padding-top: 40rpx;
+}
+.countYear text:last-child{
+  float: right
+}
+.counter{
+  padding:20rpx 0;
+  border-bottom:1px solid #eee;
+}
+.counters{
+  display: flex;
+  justify-content: space-between;
+}
+.lastPrice{
+  text-align: right;
+  padding: 20rpx 0;
+}
+.lastPrice text{
+  color: #4E89D2
+}
+.sureBtn{
+  background: #4E89D2;
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 32rpx; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

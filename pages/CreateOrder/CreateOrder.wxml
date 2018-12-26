@@ -1,4 +1,45 @@
 <!--pages/CreateOrder/CreateOrder.wxml-->
 <view>
-  <view></view>
+  <!-- 地址 -->
+  <view class='address'>
+    <view class='address_left'>
+      <view class='address_title'>安装地址</view>
+      <view class='namePhone'><text>王尼玛</text><text>15258117111</text></view>
+      <view>宁波宁波宁波宁波宁波宁波宁波宁波宁波宁波宁波</view>
+    </view>
+    <view class='address_right'>
+      <text class='iconfont icon-jiantou'></text>
+    </view>
+  </view>
+  <!-- 商品 -->
+  <view class='content'>
+    <view class='content_title'>共1件商品</view>
+    <view class='content_pro'>
+      <view class='content_img'></view>
+      <view class='content_right'>
+        <view>waterever净水器</view>
+        <view class='countYear'>
+          <text>数量X1</text>
+          <text>租金：￥365/年</text>
+        </view>
+      </view>
+    </view>
+    <view class='counter'>
+      <view class='counters'>
+        <view>购买年限</view>
+        <view>X <text>1</text>年</view>
+      </view>
+      <view class='counters'>
+        <view>押金</view>
+        <view>￥998</view>
+      </view>
+      <view class='counters'>
+        <view>配件</view>
+        <view>￥100</view>
+      </view>
+    </view>
+    <view class='lastPrice'>共1件 付款总额：<text>2195.00</text></view>
+  </view>
+  <!-- 确认 -->
+  <view class='sureBtn'>确认</view>
 </view>

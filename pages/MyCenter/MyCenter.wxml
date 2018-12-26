@@ -1,0 +1,90 @@
+<!--pages/MyCenter/MyCenter.wxml-->
+
+<!-- 头像 -->
+<view class='avater'>
+  <view class='userInfo'>
+    <view class='avaterUrl'>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class='username'>
+      <open-data type='userNickName'></open-data>
+    </view>
+  </view>
+</view>
+<!-- 代理应用 -->
+<view class='agent'>
+  <view class='agenter'>
+    <view>9000.00</view>
+    <view>奖金明细（元）</view>
+  </view>
+  <view class='agenter'>
+    <view>20</view>
+    <view>我的客户（个）</view>
+  </view>
+</view>
+<!-- 模块 -->
+<view class='moudels'>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-wo'></text>
+      <text>我的助理</text>
+    </view>
+    <view class='moudelRight'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-erweima erweima1'></text>
+      <text>助理生成码</text>
+    </view>
+    <view class='moudelRight'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-erweima erweima2'></text>
+      <text>我的推荐码</text>
+    </view>
+    <view class='moudelRight'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-qianbao'></text>
+      <text>我的钱包</text>
+    </view>
+    <view class='moudelRight'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-jindutiaojisuanshouyi'></text>
+      <text>我的收益</text>
+    </view>
+    <view class='moudelRight'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-dingdan'></text>
+      <text>我的订单</text>
+    </view>
+    <view class='moudelRight'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-tupian1'></text>
+      <text>我的晒图</text>
+    </view>
+    <view class='moudelRight'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-dizhi'></text>
+      <text>我的地址</text>
+    </view>
+    <view class='moudelRight'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='moudelContent'>
+    <view class='moudelLeft'>
+      <text class='iconfont icon-fenlei'></text>
+      <text>联系我们</text>
+    </view>
+    <view class='moudelRight'>400-818181</view>
+  </view>
+</view>

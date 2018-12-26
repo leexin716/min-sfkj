@@ -86,6 +86,10 @@ page{
 .maskTitle{
   padding-left:25rpx; 
 }
+.maskTitle text{
+  padding-left: 20rpx;
+  color: #4E89D2;
+}
 .maskItemLilst{
   display: flex;
   flex-wrap: wrap;
@@ -113,4 +117,31 @@ page{
 .addColor{
   color: #fff;
   background: #4E89D2 !important;
+}
+.counter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.backGray{
+  width: 60rpx;
+  height: 60rpx;
+  background: #E6E6E6;
+  align-items: center;
+  display: flex;
+  justify-content: center
+}
+.count{
+  width: 60rpx;
+  height: 60rpx;
+  background: #E6E6E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightCount{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
 }

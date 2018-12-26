@@ -1,0 +1,97 @@
+/* pages/MyCenter/MyCenter.wxss */
+.avater{
+  width: 100%;
+  background: #4E89D2;
+  height: 300rpx;
+  border-bottom-left-radius: 35rpx;
+  border-bottom-right-radius: 35rpx;
+}
+.avaterUrl{
+  width: 120rpx;
+  height: 120rpx;
+  display: block;
+  border-radius: 50%;
+  overflow:hidden;
+}
+.userInfo{
+  display: flex;
+  align-items: center;
+  padding:60rpx 0 0 50rpx;
+}
+.username{
+  font-size: 36rpx;
+  color: #fff;
+  padding-left: 50rpx;
+}
+.agent{
+  width: 90%;
+  margin: auto;
+  border-radius: 30rpx;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 5px #ccc;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -60rpx;
+  background: #fff;
+}
+.agenter{
+  width: 45%;
+  text-align: center
+}
+.agenter view:first-child{
+  padding-top: 40rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #4E89D2
+}
+.agenter view:last-child{
+  padding:40rpx 0;
+  font-size: 32rpx;
+}
+.moudels{
+  padding:20rpx 0 80rpx 40rpx;
+}
+.moudelContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30rpx 20rpx 30rpx 0;
+  border-bottom: 1px solid #eee;
+  font-size: 28rpx;
+}
+.moudelContent:last-child{
+  border:none;
+}
+.moudelLeft text:first-child{
+  padding-right: 15rpx;
+}
+.icon-fenlei{
+  color: #0BB9AD
+}
+.icon-dizhi{
+  color: #8BC34A
+}
+.icon-tupian1{
+  color: #0BB9AD
+}
+.icon-dingdan{
+  color: #333
+}
+.icon-qianbao{
+  color: #7D68FD
+}
+.erweima1{
+  color: #FF9800
+}
+.erweima2{
+  color: #FD3D43
+}
+.icon-wo{
+  color: #8BC34A
+}
+.icon-jindutiaojisuanshouyi{
+  color: #8BC34A
+}
+.icon-dingdan{
+  color: #FD3D43
+}

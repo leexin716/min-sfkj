@@ -1,13 +1,15 @@
 {
   "pages": [
+    "pages/MyCenter/MyCenter",
+    "pages/CreateOrder/CreateOrder",
     "pages/BuyProduct/BuyProduct",
     "pages/HomePage/HomePage",
     "pages/AgentActicityDetail/AgentActicityDetail",
     "pages/UserActivityDetail/UserActivityDetail",
     "pages/ProductDetail/ProductDetail",
     "pages/Information/Information",
-    "pages/ApplyPage/ApplyPage",
-    "pages/CreateOrder/CreateOrder"
+    "pages/ApplyPage/ApplyPage"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -30,7 +32,7 @@
         "selectedIconPath": "images/infos.png"
       },
       {
-        "pagePath": "pages/Information/Information",
+        "pagePath": "pages/MyCenter/MyCenter",
         "text": "我的",
         "iconPath": "images/center.png",
         "selectedIconPath": "images/centers.png"
