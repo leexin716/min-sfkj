@@ -1,0 +1,41 @@
+/* pages/BonusDetails/BonusDetails.wxss */
+page{
+  background: #f6f6f6
+}
+.contain{
+  padding: 20rpx;
+}
+.contenter{
+  background: #fff;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+.containTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32rpx;
+  padding: 30rpx 20rpx;
+}
+.containTitle view:last-child{
+  color: #4E89D2
+}
+.conter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   font-size: 28rpx;
+   padding: 20rpx;
+   border-bottom: 1px solid #eee;
+   border-top: 1px solid #eee;
+}
+.conterTwo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   font-size: 28rpx;
+   padding: 20rpx;
+}
+.conter_right{
+  text-align: right
+}

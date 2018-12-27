@@ -1,0 +1,47 @@
+<!--pages/MyCustomer/MyCustomer.wxml-->
+<view class='contain'>
+  <view class='backer'>
+    <view class='content'>
+      <view>
+        <view>张三</view>
+        <view class='gray'>2018-12-23 12:20:00</view>
+      </view>
+      <view class='gray'>已安装</view>
+    </view>
+    <view class='content'>
+      <view>
+        <view>张三</view>
+        <view class='gray'>2018-12-23 12:20:00</view>
+      </view>
+      <view class='gray'>已安装</view>
+    </view>
+    <view class='content'>
+      <view>
+        <view>张三</view>
+        <view class='gray'>2018-12-23 12:20:00</view>
+      </view>
+      <view class='gray'>已安装</view>
+    </view>
+    <view class='content'>
+      <view>
+        <view>张三</view>
+        <view class='gray'>2018-12-23 12:20:00</view>
+      </view>
+      <view class='gray'>已安装</view>
+    </view>
+    <view class='content'>
+      <view>
+        <view>张三</view>
+        <view class='gray'>2018-12-23 12:20:00</view>
+      </view>
+      <view class='gray'>已安装</view>
+    </view>
+    <view class='content'>
+      <view>
+        <view>张三</view>
+        <view class='gray'>2018-12-23 12:20:00</view>
+      </view>
+      <view class='gray'>已安装</view>
+    </view>
+  </view>
+</view>

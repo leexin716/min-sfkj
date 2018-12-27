@@ -1,0 +1,10 @@
+<!--pages/MyWallet/MyWallet.wxml-->
+<view class='content'>
+  <image src='../../images/wallet.png' mode='widthFix' style='width:150rpx;height:150rpx'></image>
+  <view class='wallet'>我的钱包</view>
+  <view class="price">￥<text>500.00</text></view>
+</view>
+<view class='buttn'>
+     <button hover-class='hovers'>提现</button>
+     <button >收支明细</button>
+  </view>

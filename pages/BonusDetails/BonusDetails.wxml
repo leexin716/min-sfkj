@@ -1,0 +1,139 @@
+<!--pages/BonusDetails/BonusDetails.wxml-->
+<view class='contain'>
+  <view class='contenter'>
+    <view class='containTitle'>
+      <view>奖金</view>
+      <view>￥998</view>
+    </view>
+
+    <view class='conter'>
+      <view>
+        <view>产品名称</view>
+        <view>订单金额</view>
+        <view>客户姓名</view>
+      </view>
+      <view class='conter_right'>
+        <view>waterever净水器</view>
+        <view>￥1093.00</view>
+        <view>疾风剑豪</view>
+      </view>
+    </view>
+
+    <view class='conterTwo'>
+      <view>
+        <view>推荐助理</view>
+        <view>推荐时间</view>
+        <view>订单编号</view>
+        <view>下单时间</view>
+      </view>
+      <view class='conter_right'>
+        <view>张三</view>
+        <view>2018-12-12</view>
+        <view>1456465165465</view>
+        <view>2018-12-12</view>
+      </view>
+    </view>
+  </view>
+  <view class='contenter'>
+    <view class='containTitle'>
+      <view>奖金</view>
+      <view>￥998</view>
+    </view>
+
+    <view class='conter'>
+      <view>
+        <view>产品名称</view>
+        <view>订单金额</view>
+        <view>客户姓名</view>
+      </view>
+      <view class='conter_right'>
+        <view>waterever净水器</view>
+        <view>￥1093.00</view>
+        <view>疾风剑豪</view>
+      </view>
+    </view>
+
+    <view class='conterTwo'>
+      <view>
+        <view>推荐助理</view>
+        <view>推荐时间</view>
+        <view>订单编号</view>
+        <view>下单时间</view>
+      </view>
+      <view class='conter_right'>
+        <view>张三</view>
+        <view>2018-12-12</view>
+        <view>1456465165465</view>
+        <view>2018-12-12</view>
+      </view>
+    </view>
+  </view>
+  <view class='contenter'>
+    <view class='containTitle'>
+      <view>奖金</view>
+      <view>￥998</view>
+    </view>
+
+    <view class='conter'>
+      <view>
+        <view>产品名称</view>
+        <view>订单金额</view>
+        <view>客户姓名</view>
+      </view>
+      <view class='conter_right'>
+        <view>waterever净水器</view>
+        <view>￥1093.00</view>
+        <view>疾风剑豪</view>
+      </view>
+    </view>
+
+    <view class='conterTwo'>
+      <view>
+        <view>推荐助理</view>
+        <view>推荐时间</view>
+        <view>订单编号</view>
+        <view>下单时间</view>
+      </view>
+      <view class='conter_right'>
+        <view>张三</view>
+        <view>2018-12-12</view>
+        <view>1456465165465</view>
+        <view>2018-12-12</view>
+      </view>
+    </view>
+  </view>
+  <view class='contenter'>
+    <view class='containTitle'>
+      <view>奖金</view>
+      <view>￥998</view>
+    </view>
+
+    <view class='conter'>
+      <view>
+        <view>产品名称</view>
+        <view>订单金额</view>
+        <view>客户姓名</view>
+      </view>
+      <view class='conter_right'>
+        <view>waterever净水器</view>
+        <view>￥1093.00</view>
+        <view>疾风剑豪</view>
+      </view>
+    </view>
+
+    <view class='conterTwo'>
+      <view>
+        <view>推荐助理</view>
+        <view>推荐时间</view>
+        <view>订单编号</view>
+        <view>下单时间</view>
+      </view>
+      <view class='conter_right'>
+        <view>张三</view>
+        <view>2018-12-12</view>
+        <view>1456465165465</view>
+        <view>2018-12-12</view>
+      </view>
+    </view>
+  </view>
+</view>

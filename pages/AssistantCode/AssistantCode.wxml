@@ -1,0 +1,12 @@
+<!--pages/AssistantCode/AssistantCode.wxml-->
+<view >
+  <image src='http://qrcode.waterever.cn/image/erweima_img1.png' mode='widthFix' style='width:100%'></image>
+  <view class='content'>
+    <view class='avaterUrl'><open-data type="userAvatarUrl"></open-data></view>
+    <view class='middle'>
+      <view>我是<open-data type='userNickName'></open-data></view>
+      <view>扫一扫成为我的助理</view>
+    </view>
+    <view class='ercode'></view>
+  </view>
+</view>

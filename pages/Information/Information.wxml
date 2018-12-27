@@ -1,2 +1,37 @@
 <!--pages/Information/Information.wxml-->
-<text>pages/Information/Information.wxml</text>
+<view class="swiper-tab">
+  <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">资讯</view>
+  <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">视频</view>
+  <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">新闻</view>
+</view>
+<swiper current="{{currentTab}}" duration="300" bindchange="swiperTab" style='height:90%;padding-top:88rpx;'>
+  <swiper-item>
+    <view class='info'>
+      <view class='info_left'>
+        <view>高压的生活，把很多东西都藏了起来，你很难感受到，最纯粹的东西带来的那份快乐。</view>
+        <view>2017-06-24</view>
+      </view>
+      <view class='info_right'></view>
+    </view>
+    <view class='info'>
+      <view class='info_left'>
+        <view>高压的生活，把很多东西都藏了起来，你很难感受到，最纯粹的东西带来的那份快乐。</view>
+        <view>2017-06-24</view>
+      </view>
+      <view class='info_right'></view>
+    </view>
+    <view class='info'>
+      <view class='info_left'>
+        <view>高压的生活，把很多东西都藏了起来，你很难感受到，最纯粹的东西带来的那份快乐。</view>
+        <view>2017-06-24</view>
+      </view>
+      <view class='info_right'></view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view>
+      视频
+    </view>
+  </swiper-item>
+  <swiper-item><view>新闻</view></swiper-item>
+</swiper>

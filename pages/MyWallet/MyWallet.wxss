@@ -1,0 +1,30 @@
+/* pages/MyWallet/MyWallet.wxss */
+.content{
+  padding: 100rpx 0;
+  text-align: center;
+  font-size: 28rpx;
+}
+.price{
+  font-size: 40rpx;
+}
+.price text{
+  font-size: 72rpx;
+  font-weight: bold
+}
+.wallet{
+  padding: 20rpx 0;
+}
+.buttn{
+  width: 90%;
+  margin: auto;
+}
+.buttn button:last-child{
+  margin-top: 20rpx;
+}
+.buttn button:first-child{
+  background: #4E89D2;
+  color: #fff;
+}
+.hovers{
+  background: rgb(102, 152, 214)!important;
+}

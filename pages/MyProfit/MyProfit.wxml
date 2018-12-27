@@ -1,0 +1,208 @@
+<!--pages/MyProfit/MyProfit.wxml-->
+<view class='contain'>
+  <view class='title'>
+    <view>总分润奖金</view>
+    <view>￥5240.00</view>
+  </view>
+
+  <view class='modules'>
+    <view class='content'>
+      <view class='modules_left'>
+          <view class='titleColor'>年限</view>
+          <view class='contenter'>1年</view>
+      </view>
+      <view class='modules_left'>
+          <view class='titleColor'>当前用户数</view>
+          <view class='contenter'>
+            <text class='iconfont icon-wo'></text>
+            <text>5</text>
+          </view>
+      </view>
+      <view class='modules_left'>
+        <view class='titleColor'>分润奖金</view>
+          <view class='contenter'>
+            <text class='iconfont icon-qian'></text>
+            <text>￥1277.50</text>
+          </view>
+      </view>
+    </view>
+
+    <view class='modules_btm'>
+      <view>租金：<text>￥365</text></view>
+      <view>代理分成比例：<text>70%</text></view>
+    </view>
+  </view>
+
+  <view class='modules'>
+    <view class='content'>
+      <view class='modules_left'>
+          <view class='titleColor'>年限</view>
+          <view class='contenter'>2年</view>
+      </view>
+      <view class='modules_left'>
+          <view class='titleColor'>当前用户数</view>
+          <view class='contenter'>
+            <text class='iconfont icon-wo'></text>
+            <text>5</text>
+          </view>
+      </view>
+      <view class='modules_left'>
+        <view class='titleColor'>分润奖金</view>
+          <view class='contenter'>
+            <text class='iconfont icon-qian'></text>
+            <text>￥1277.50</text>
+          </view>
+      </view>
+    </view>
+
+    <view class='modules_btm'>
+      <view>租金：<text>￥365</text></view>
+      <view>代理分成比例：<text>70%</text></view>
+    </view>
+  </view>
+
+
+  <view class='modules'>
+    <view class='content'>
+      <view class='modules_left'>
+          <view class='titleColor'>年限</view>
+          <view class='contenter'>3年</view>
+      </view>
+      <view class='modules_left'>
+          <view class='titleColor'>当前用户数</view>
+          <view class='contenter'>
+            <text class='iconfont icon-wo'></text>
+            <text>5</text>
+          </view>
+      </view>
+      <view class='modules_left'>
+        <view class='titleColor'>分润奖金</view>
+          <view class='contenter'>
+            <text class='iconfont icon-qian'></text>
+            <text>￥1277.50</text>
+          </view>
+      </view>
+    </view>
+
+    <view class='modules_btm'>
+      <view>租金：<text>￥365</text></view>
+      <view>代理分成比例：<text>70%</text></view>
+    </view>
+  </view>
+
+
+  <view class='modules'>
+    <view class='content'>
+      <view class='modules_left'>
+          <view class='titleColor'>年限</view>
+          <view class='contenter'>4年</view>
+      </view>
+      <view class='modules_left'>
+          <view class='titleColor'>当前用户数</view>
+          <view class='contenter'>
+            <text class='iconfont icon-wo'></text>
+            <text>5</text>
+          </view>
+      </view>
+      <view class='modules_left'>
+        <view class='titleColor'>分润奖金</view>
+          <view class='contenter'>
+            <text class='iconfont icon-qian'></text>
+            <text>￥1277.50</text>
+          </view>
+      </view>
+    </view>
+
+    <view class='modules_btm'>
+      <view>租金：<text>￥365</text></view>
+      <view>代理分成比例：<text>70%</text></view>
+    </view>
+  </view>
+
+
+  <view class='modules'>
+    <view class='content'>
+      <view class='modules_left'>
+          <view class='titleColor'>年限</view>
+          <view class='contenter'>5年</view>
+      </view>
+      <view class='modules_left'>
+          <view class='titleColor'>当前用户数</view>
+          <view class='contenter'>
+            <text class='iconfont icon-wo'></text>
+            <text>5</text>
+          </view>
+      </view>
+      <view class='modules_left'>
+        <view class='titleColor'>分润奖金</view>
+          <view class='contenter'>
+            <text class='iconfont icon-qian'></text>
+            <text>￥1277.50</text>
+          </view>
+      </view>
+    </view>
+
+    <view class='modules_btm'>
+      <view>租金：<text>￥365</text></view>
+      <view>代理分成比例：<text>70%</text></view>
+    </view>
+  </view>
+
+
+  <view class='modules'>
+    <view class='content'>
+      <view class='modules_left'>
+          <view class='titleColor'>年限</view>
+          <view class='contenter'>6年</view>
+      </view>
+      <view class='modules_left'>
+          <view class='titleColor'>当前用户数</view>
+          <view class='contenter'>
+            <text class='iconfont icon-wo'></text>
+            <text>5</text>
+          </view>
+      </view>
+      <view class='modules_left'>
+        <view class='titleColor'>分润奖金</view>
+          <view class='contenter'>
+            <text class='iconfont icon-qian'></text>
+            <text>￥1277.50</text>
+          </view>
+      </view>
+    </view>
+
+    <view class='modules_btm'>
+      <view>租金：<text>￥365</text></view>
+      <view>代理分成比例：<text>70%</text></view>
+    </view>
+  </view>
+
+
+  <view class='modules'>
+    <view class='content'>
+      <view class='modules_left'>
+          <view class='titleColor'>年限</view>
+          <view class='contenter'>7年</view>
+      </view>
+      <view class='modules_left'>
+          <view class='titleColor'>当前用户数</view>
+          <view class='contenter'>
+            <text class='iconfont icon-wo'></text>
+            <text>5</text>
+          </view>
+      </view>
+      <view class='modules_left'>
+        <view class='titleColor'>分润奖金</view>
+          <view class='contenter'>
+            <text class='iconfont icon-qian'></text>
+            <text>￥1277.50</text>
+          </view>
+      </view>
+    </view>
+
+    <view class='modules_btm'>
+      <view>租金：<text>￥365</text></view>
+      <view>代理分成比例：<text>70%</text></view>
+    </view>
+  </view>
+</view>

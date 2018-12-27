@@ -1,0 +1,36 @@
+/* pages/AssistantList/AssistantList.wxss */
+page{
+  background: #f6f6f6;
+}
+.content{
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28rpx;
+  border-bottom: 1px solid #eee
+}
+.content:last-child{
+  border: none
+}
+.content_left{
+  width: 120rpx;
+  height: 120rpx;
+  background: #ccc;
+}
+.content_middle{
+  width: 60%;
+}
+.content_rightt{
+  width: 10%;
+}
+.sureBtn{
+  background: #4E89D2;
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 32rpx; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

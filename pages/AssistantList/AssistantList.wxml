@@ -1,0 +1,43 @@
+<!--pages/AssistantList/AssistantList.wxml-->
+<view class='contain'>
+  <view class='content'>
+    <view class='content_left'>
+      
+    </view>
+    <view class='content_middle'>
+      <view>姓名：张三年</view>
+      <view>生成时间：2018-12-09 12:21</view>
+      <view>推广数量：22</view>
+      <view>推广费用：￥120/笔</view>
+      <view>待结算：12笔</view>
+    </view>
+    <view class='content_rightt'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='content'>
+    <view class='content_left'>
+      
+    </view>
+    <view class='content_middle'>
+      <view>姓名：张三年</view>
+      <view>生成时间：2018-12-09 12:21</view>
+      <view>推广数量：22</view>
+      <view>推广费用：￥120/笔</view>
+      <view>待结算：12笔</view>
+    </view>
+    <view class='content_rightt'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='content'>
+    <view class='content_left'>
+      
+    </view>
+    <view class='content_middle'>
+      <view>姓名：张三年</view>
+      <view>生成时间：2018-12-09 12:21</view>
+      <view>推广数量：22</view>
+      <view>推广费用：￥120/笔</view>
+      <view>待结算：12笔</view>
+    </view>
+    <view class='content_rightt'><text class='iconfont icon-jiantou'></text></view>
+  </view>
+  <view class='sureBtn'>添加助理</view>
+</view>

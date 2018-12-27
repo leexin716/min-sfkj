@@ -1,0 +1,21 @@
+/* pages/MyCustomer/MyCustomer.wxss */
+page{
+  background: #f6f6f6;
+}
+.content{
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28rpx;
+  border-bottom: 1px solid #eee;
+}
+.content:last-child{
+  border: none;
+}
+.backer{
+  background: #fff
+}
+.gray{
+  color: #8C8C8C
+}

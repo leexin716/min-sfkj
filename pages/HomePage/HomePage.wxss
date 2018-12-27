@@ -32,10 +32,8 @@ page{
 }
 .isVideo{
   width: 90%;
-  /* border-radius: 30rpx; */
   height: 350rpx;
   margin: auto;
-  /* margin-top: 30rpx; */
 }
 .isVideo video{
   width: 100%;

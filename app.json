@@ -1,14 +1,23 @@
 {
   "pages": [
+    "pages/HomePage/HomePage",
     "pages/MyCenter/MyCenter",
+    "pages/MyCode/MyCode",
+    "pages/Information/Information",
+    
+    "pages/BonusDetails/BonusDetails",
+    "pages/MyCustomer/MyCustomer",
+    "pages/MyProfit/MyProfit",
+    "pages/MyWallet/MyWallet",
+    "pages/AssistantList/AssistantList",
     "pages/CreateOrder/CreateOrder",
     "pages/BuyProduct/BuyProduct",
-    "pages/HomePage/HomePage",
+    
     "pages/AgentActicityDetail/AgentActicityDetail",
     "pages/UserActivityDetail/UserActivityDetail",
     "pages/ProductDetail/ProductDetail",
-    "pages/Information/Information",
-    "pages/ApplyPage/ApplyPage"
+    "pages/ApplyPage/ApplyPage",
+    "pages/AssistantCode/AssistantCode"
     
   ],
   "window": {
