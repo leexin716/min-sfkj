@@ -3,7 +3,7 @@ Page({
   data: {
     yearList: ['1年', '2年', '3年', '4年', '5年', '6年','7年'],
     isbuy:['是','否'],
-    isMask:true,
+    isMask:false,
     isAddYear:-1,
     isAddBuy:-1,
     count:1,
@@ -68,6 +68,7 @@ Page({
       })
       return
     }
+    this.setData({ isMask:false})
     wx.navigateTo({
       url: '../CreateOrder/CreateOrder?isYears=' + this.data.isYears + '&isBuys=' + this.data.isBuys + '&count=' + this.data.count,
     })
