@@ -3,11 +3,11 @@
 const rootDocment = 'http://cc.xiaohaidujia.com/';//开发
 const header = {
   'content-type': 'application/x-www-form-urlencoded',
-  'auth': wx.getStorageSync('apiToken'),
-  'fromBy': '5',
-  'apiVersion': '1.0.0',
-  'timestamp': null,
-  'sign':null
+  // 'auth': wx.getStorageSync('apiToken'),
+  // 'fromBy': '5',
+  // 'apiVersion': '1.0.0',
+  // 'timestamp': null,
+  // 'sign':null
 }
 function getReq(url, data, cb) {
   wx.showLoading({
@@ -42,7 +42,7 @@ function postReq(url, data, cb) {
   })
     wx.request({
       url: rootDocment + url,
-      // header: header,
+      header: header,
       data: data,
       method: 'post',
       success: function (res) {
