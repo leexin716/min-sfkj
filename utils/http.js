@@ -1,7 +1,6 @@
 
-const util = require('./util.js')
-const rootDocment = 'https://clapi2.youpinhaoche.com/';//生产
-// const rootDocment = 'http://clapi.qa.youpinhaoche.com/';//开发
+// const rootDocment = 'https://clapi2.youpinhaoche.com/';//生产
+const rootDocment = 'http://cc.xiaohaidujia.com/';//开发
 const header = {
   'content-type': 'application/x-www-form-urlencoded',
   'auth': wx.getStorageSync('apiToken'),
@@ -43,7 +42,7 @@ function postReq(url, data, cb) {
   })
     wx.request({
       url: rootDocment + url,
-      header: header,
+      // header: header,
       data: data,
       method: 'post',
       success: function (res) {

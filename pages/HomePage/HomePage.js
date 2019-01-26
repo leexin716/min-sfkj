@@ -1,8 +1,10 @@
+
+const http = require('../../utils/http.js')
 Page({
   data: {
     imgUrls:[
-      'http://pj94pq3zn.bkt.clouddn.com/homeBanner1.png',
-      'http://pj94pq3zn.bkt.clouddn.com/homeBanner2.png'
+      'http://pkhotk7ch.bkt.clouddn.com/bannerOne.png',
+      'http://pkhotk7ch.bkt.clouddn.com/bannerTwo.png'
     ],
     isAgent:false,
     apply:true
@@ -11,7 +13,8 @@ Page({
 
   },
   onLoad: function (options) {
-    
+    this.getHomeInfo(1)
+    this.getHomeInfo(2)
   },
   //产品详情
   toDetail(){
@@ -29,6 +32,16 @@ Page({
   toOrdinaryActivity(){
     wx.navigateTo({
       url: '../UserActivityDetail/UserActivityDetail?apply=' + this.data.apply,
+    })
+  },
+  //获取bannert
+  getHomeInfo(type){
+    http.postReq('banner/list',{
+      type:type
+    },function(res){
+      if(res){
+        console.log(res)
+      }
     })
   }
 })
