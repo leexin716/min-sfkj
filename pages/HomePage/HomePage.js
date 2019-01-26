@@ -39,8 +39,8 @@ Page({
     http.postReq('banner/list',{
       type:type
     },function(res){
-      if(res){
-        console.log(res)
+      if (res.result == 200){
+        
       }
     })
   }
